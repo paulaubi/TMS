@@ -12,6 +12,7 @@ nav ul li a {
   color: darkslateblue;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 nav ul li {
   list-style-type: none;
   display: inline;
@@ -19,16 +20,17 @@ nav ul li {
   margin: 20px;
   padding: 20px;
 }
+
 nav ul {
   margin: 40px 0px;
   float: right;
 }
+
 nav {
   background-color: whitesmoke;
   height: 90px;
   width: 100%;
 }
-
 
 .fondo {
   background-image: url(../assets/imagenes/puerto.jpg);
@@ -36,6 +38,7 @@ nav {
   height: 100%;
   padding: 250px 0px 250px 0px;
 }
+
 #titulo-principal {
   color: white;
   text-align: center;
@@ -60,18 +63,16 @@ nav {
     transform: translateX(0px);
   }
 }
-
 @keyframes efecto-abajo {
   0% {
     opacity: 0;
-    transform:translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     opacity: 1;
     transform: translateY(0px);
   }
 }
-
 #slogan {
   background-color: silver;
   color: white;
@@ -79,6 +80,7 @@ nav {
   text-align: center;
   font-size: 30px;
 }
+
 h2 {
   color: white;
   text-align: center;
@@ -95,14 +97,12 @@ h2 {
   animation: efecto-abajo 1.5s ease;
 }
 
-
 .presentacion p {
   color: white;
   text-align: left;
   font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 20px;
-  
 }
 
 .mujeres div {
@@ -111,13 +111,16 @@ h2 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 .mujeres {
   background-color: silver;
   padding-bottom: 50px;
 }
+
 .mujeres img {
   padding: 10px;
 }
+
 .mujeres p {
   text-align: center;
 }
@@ -136,6 +139,7 @@ h2 {
 .servicios div img {
   border-radius: 50%;
 }
+
 .servicios div p {
   padding-top: 30px;
 }
@@ -144,10 +148,12 @@ h2 {
   padding: 0px 100px 10px 100px;
   animation: efecto-abajo 1.5s ease;
 }
+
 .operacion div {
   padding: 20px;
   text-align: center;
 }
+
 .operacion img {
   border-radius: 10%;
   text-align: center;
@@ -183,7 +189,6 @@ h2 {
 }
 
 /*Formulario*/
-
 form div {
   text-align: right;
   padding: 10px;
@@ -204,6 +209,7 @@ form div {
   width: 50%;
   padding: 20px;
 }
+
 .contacto form {
   width: 50%;
   padding: 20px;
@@ -224,3 +230,5 @@ footer div {
   text-align: center;
   padding: 10px 50px 10px 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
