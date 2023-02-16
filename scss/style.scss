@@ -1,34 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: darkslateblue;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: darkslateblue;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  nav ul li {
-    list-style-type: none;
-    display: inline;
-    flex: auto;
-    margin: 20px;
-    padding: 20px;
-  }
-  nav ul {
-    margin: 40px 0px;
-    float: right;
-  }
-  nav {
-    background-color: whitesmoke;
-    height: 90px;
-    width: 100%;
-  }
-  
+@import "variables";
+@import "globals"; 
+@import "navbar";
+
+
+
   
   .fondo {
     background-image: url(../assets/imagenes/puerto.jpg);
@@ -217,11 +192,22 @@
     position: sticky;
     width: 100%;
     bottom: 0%;
-    height: 90px;
+    height: 70px;
   }
+
+    footer div {
+      text-align: center;
+      padding: 10px 50px 10px 10px;
+    }
   
-  footer div {
-    text-align: center;
-    padding: 10px 50px 10px 10px;
+  
+  /*Img Carrousel*/
+
+  .carousel-item {
+  img {
+    width: auto;
+  height: 200px;
+  max-height: 200px;
+   }
   }
-  
+
