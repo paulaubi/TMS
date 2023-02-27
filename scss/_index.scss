@@ -1,0 +1,24 @@
+.fondo {
+    background-image: url(../assets/imagenes/puerto.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 250px 0px 250px 0px;
+  }
+  
+  h1 {
+    
+    text-align: center;
+    margin: 10px;
+    font-size: 550rem;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 20px;
+    animation: efecto-derecha 1.5s ease;
+  }
+  
+  .slogan {
+    background-color: silver;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    font-size: 30px;
+  }

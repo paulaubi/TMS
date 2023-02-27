@@ -1,30 +1,18 @@
 @import "variables";
 @import "globals"; 
 @import "navbar";
+@import "footer";
+@import "index";
+@import "contacto";
+@import "operacion";
+@import "quienessomos";
+@import "nuestrosservicios";
 
+main {
+  background-color: rgb(168, 161, 214)
+}
 
-
-  
-  .fondo {
-    background-image: url(../assets/imagenes/puerto.jpg);
-    width: 100%;
-    height: 100%;
-    padding: 250px 0px 250px 0px;
-  }
-  #titulo-principal {
-    color: white;
-    text-align: center;
-    margin: 10px;
-    font-size: 50px;
-    font-family: "Roboto Condensed", sans-serif;
-    padding: 20px;
-  }
-  
-  #titulo-principal {
-    animation: efecto-derecha 1.5s ease;
-  }
-  
-  /* creo animacion*/
+ /*ANIMACIONES*/
   @keyframes efecto-derecha {
     0% {
       opacity: 0;
@@ -47,13 +35,8 @@
     }
   }
   
-  #slogan {
-    background-color: silver;
-    color: white;
-    font-family: "Libre Baskerville", serif;
-    text-align: center;
-    font-size: 30px;
-  }
+  
+  
   h2 {
     color: white;
     text-align: center;
@@ -102,22 +85,22 @@
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: darkslateblue;
     width: 30%;
     padding: 10px;
     animation: efecto-abajo 1.5s ease;
-  }
   
-  .servicios div img {
-    border-radius: 50%;
-  }
-  .servicios div p {
-    padding-top: 30px;
-  }
-  
-  .servicios div {
+    div {
     padding: 0px 100px 10px 100px;
     animation: efecto-abajo 1.5s ease;
+      img {
+    border-radius: 50%;
+  
+        p {
+    padding-top: 30px;
+  }
+}
+    }
   }
   .operacion div {
     padding: 20px;
@@ -159,46 +142,35 @@
   
   /*Formulario*/
   
-  form div {
-    text-align: right;
-    padding: 10px;
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
+  form {
+    div {
+    text-align: left;
+    color: darkslateblue;
     padding: 10px;
     font-size: larger;
+    padding-right: 100px;
+  }
+}
+  
+  .contacto {
+    
+    
   }
   
   .contacto {
-    display: flex;
-    padding: 20px;
-    padding-bottom: 30px;
-    animation: efecto-abajo 1.5s ease;
+      iframe {
+          width: 100%;
+          padding: 50px;
   }
+}
   
-  .contacto iframe {
-    width: 50%;
-    padding: 20px;
-  }
-  .contacto form {
-    width: 50%;
-    padding: 20px;
-    padding-right: 100px;
-  }
-  
-  footer {
-    background-color: silver;
-    font-family: "Roboto Condensed", sans-serif;
-    color: darkslateblue;
-    position: sticky;
+form {
     width: 100%;
-    bottom: 0%;
-    height: 70px;
+    padding: 10px;
+    
   }
-
-    footer div {
-      text-align: center;
-      padding: 10px 50px 10px 10px;
-    }
+  
+  
   
   
   /*Img Carrousel*/
@@ -211,3 +183,9 @@
    }
   }
 
+  .card{
+    text-align: center
+    ;
+  }
+
+  

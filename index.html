@@ -2,10 +2,13 @@
 <html lang="es">
   <head>
     <meta charset="uft-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="./css/style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/bb459412d8.js" crossorigin="anonymous"></script>
       
       <title>TRANSOCEANIC MARINE SERVICES</title>
       
@@ -14,39 +17,119 @@
       <link rel="icon" type="image/png" sizes="16x16" href="./assets/imagenes/favicon-16x16.png">
 
       <!-- link BS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
 
 <body>
-	<header class="header-sticky">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-      <a href="index.html">
-        <img width="90" src="./assets/imagenes/apple-touch-icon.png" alt="Icono Principal">
-      </a>
-      <ul>
-        <li><a href="./pages/quienessomos.html">QUIENES SOMOS</a></li>
-        <li><a href="./pages/nuestrosservicios.html">NUESTROS SERVICIOS</a></li>
-        <li><a href="./pages/operacion.html">OPERACIÓN</a></li>
-        <li><a href="./pages/contacto.html">CONTACTO</a></li>
-      </ul>
-    </div>
-    </nav>
+	<header>
 
+   <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
+      <div class="container-fluid p-0">
+        <a class="nav-link" aria-current="page" href="../index.html">
+          <img width="80" src="./assets/imagenes/apple-touch-icon.png" alt="Icono Principal" class="nav__logo d-inline-block align-text-top mx-4">
+        </a>
 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+            <ul class="navbar-nav mx-auto mb-lg-0">
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="./pages/quienessomos.html">QUIENES SOMOS</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="./pages/nuestrosservicios.html">NUESTROS SERVICIOS</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="./pages/operacion.html">OPERACIÓN</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
+            </ul>
+       </div>
+      </div>
+     </nav>
+    </header>
+	<!-- termina NAV BAR -->
+
+   <main class="fondo">
+    <div class="container-fluid">  
     
-	</header>
-	
-  <main class="fondo">
-    <div id="titulo-principal">
-     <h1 >Bienvenidos a Transoceanic Marine Services</h1>
-    </div>
-     <article id="slogan">
+     <h1>Bienvenidos a Transoceanic Marine Services</h1>
+    
+     <article class="slogan">
       <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, mollitia voluptate?</p>
      </article>
-   
+    </div>
   </main>
+ 
+
+ <!-- COMIENZA EL FOOTER -->
+
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- You Tube -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-youtube"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(254, 237, 254, 0.2);">
+    © Copyright 2023 <a href="#">Transoceanic Marine Services</a> | Creada por
+    <a href="https://github.com/paulaubi">Paula Ubici</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+</div>
+<!-- End of .container -->
+
+
   
   <!-- link JS -->
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

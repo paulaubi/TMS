@@ -1,35 +1,64 @@
+/*VARIABLES*/ /*ESTILOS GLOBALES*/
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
-body {
-  background-color: darkslateblue;
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0px;
+  display: block;
 }
 
-nav {
+.navbar {
   background-color: whitesmoke;
   height: 90px;
   width: 100%;
 }
-nav ul {
+.navbar ul {
   margin: 40px 0px;
   float: right;
 }
-nav ul li {
+.navbar ul li {
   list-style-type: none;
   display: inline;
   flex: auto;
   margin: 20px;
   padding: 20px;
 }
-nav ul li :hover {
+.navbar ul li :hover {
   color: blueviolet;
 }
-nav ul li a {
+.navbar ul li a {
   text-decoration: none;
   color: darkslateblue;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  color: blue;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0px;
+  display: block;
+}
+
+footer {
+  text-align: center;
 }
 
 .fondo {
@@ -39,20 +68,28 @@ nav ul li a {
   padding: 250px 0px 250px 0px;
 }
 
-#titulo-principal {
-  color: white;
+h1 {
   text-align: center;
   margin: 10px;
-  font-size: 50px;
+  font-size: 550rem;
   font-family: "Roboto Condensed", sans-serif;
   padding: 20px;
-}
-
-#titulo-principal {
   animation: efecto-derecha 1.5s ease;
 }
 
-/* creo animacion*/
+.slogan {
+  background-color: silver;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+main {
+  background-color: rgb(168, 161, 214);
+}
+
+/*ANIMACIONES*/
 @keyframes efecto-derecha {
   0% {
     opacity: 0;
@@ -73,14 +110,6 @@ nav ul li a {
     transform: translateY(0px);
   }
 }
-#slogan {
-  background-color: silver;
-  color: white;
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-  font-size: 30px;
-}
-
 h2 {
   color: white;
   text-align: center;
@@ -130,23 +159,20 @@ h2 {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
   font-size: 25px;
-  color: white;
+  color: darkslateblue;
   width: 30%;
   padding: 10px;
   animation: efecto-abajo 1.5s ease;
 }
-
-.servicios div img {
-  border-radius: 50%;
-}
-
-.servicios div p {
-  padding-top: 30px;
-}
-
 .servicios div {
   padding: 0px 100px 10px 100px;
   animation: efecto-abajo 1.5s ease;
+}
+.servicios div img {
+  border-radius: 50%;
+}
+.servicios div img p {
+  padding-top: 30px;
 }
 
 .operacion div {
@@ -190,45 +216,21 @@ h2 {
 
 /*Formulario*/
 form div {
-  text-align: right;
-  padding: 10px;
-  color: white;
-  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  color: darkslateblue;
   padding: 10px;
   font-size: larger;
-}
-
-.contacto {
-  display: flex;
-  padding: 20px;
-  padding-bottom: 30px;
-  animation: efecto-abajo 1.5s ease;
-}
-
-.contacto iframe {
-  width: 50%;
-  padding: 20px;
-}
-
-.contacto form {
-  width: 50%;
-  padding: 20px;
   padding-right: 100px;
 }
 
-footer {
-  background-color: silver;
-  font-family: "Roboto Condensed", sans-serif;
-  color: darkslateblue;
-  position: sticky;
+.contacto iframe {
   width: 100%;
-  bottom: 0%;
-  height: 70px;
+  padding: 50px;
 }
 
-footer div {
-  text-align: center;
-  padding: 10px 50px 10px 10px;
+form {
+  width: 100%;
+  padding: 10px;
 }
 
 /*Img Carrousel*/
@@ -236,6 +238,10 @@ footer div {
   width: auto;
   height: 200px;
   max-height: 200px;
+}
+
+.card {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
