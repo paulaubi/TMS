@@ -1,0 +1,35 @@
+.operacion div {
+    padding: 20px;
+    text-align: center;
+  }
+  .operacion img {
+    border-radius: 10%;
+    text-align: center;
+    animation: efecto-abajo 1.5s ease;
+  }
+  
+  .operacion div p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .operacion div ul li {
+    color: darkslateblue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 50px;
+    background-color: silver;
+    border-radius: 10%;
+  }
+  
+  .socios img {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .socios {
+    background-color: silver;
+  }

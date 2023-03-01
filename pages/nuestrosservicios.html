@@ -23,52 +23,67 @@
 <body>
 	<header>
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
-      <div class="container-fluid p-0">
-        <a class="nav-link" aria-current="page" href="../index.html">
-          <img width="80" src="../assets/imagenes/apple-touch-icon.png" alt="Icono Principal" class="nav__logo d-inline-block align-text-top mx-4">
+    <nav class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary menu shadow">
+      <div class="container">
+        <a class="nav-link" aria-current="page" href="/index.html">
+          <img width="80" src="/assets/imagenes/apple-touch-icon.png" alt="Icono Principal" class="nav__logo d-inline-block align-text-top mx-4">
         </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
-            <ul class="navbar-nav mx-auto mb-lg-0">
-              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="quienessomos.html">QUIENES SOMOS</a></li>
-              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="nuestrosservicios.html">NUESTROS SERVICIOS</a></li>
-              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="operacion.html">OPERACIÓN</a></li>
-              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="/pages/quienessomos.html">QUIENES SOMOS</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="/pages/nuestrosservicios.html">NUESTROS SERVICIOS</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="/pages/operacion.html">OPERACIÓN</a></li>
+              <li class="nav-item ps-4 fs-4"><a class="nav-link" href="/pages/contacto.html">CONTACTO</a></li>
             </ul>
        </div>
       </div>
      </nav>
     </header>
+	<!-- termina NAV BAR -->
+
 	
   <main>
 
-    <div class="container-fluid">
-    <h2 >NUESTROS SERVICIOS</h2>
+  
     
-    
-  <div class="servicios container-fluid" >
+    <h2 style="color: white;">NUESTROS SERVICIOS</h2>
+   
+    <div class="servicios container">
 
-    
-
-      <div><img width="300" src="../assets/imagenes/tools.jpg">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corporis sequi quaerat minima iure obcaecati saepe optio explicabo voluptates iusto possimus tempore, voluptatibus nisi incidunt laboriosam animi blanditiis ipsam cumque facilis veritatis necessitatibus, magnam fuga! Exercitationem harum expedita tempora ut.</p>
+      <div class="row">
+        <div class="col-4">
+        <img width="300" src="../assets/imagenes/tools.jpg" class="rounded-circle">
       </div>
   
-      <div><img width="300" src="../assets/imagenes/crucero.jpg">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda fugiat voluptas tempore eligendi nam quis autem accusamus ipsum ipsa adipisci. Impedit illo explicabo consequuntur commodi possimus similique doloremque neque aliquid, voluptatem, dolor nulla harum! Omnis illum dolor minus mollitia voluptatum!</p>
+      <div class="col-4">
+        <img width="300" src="../assets/imagenes/crucero.jpg" class="rounded-circle" >
       </div>
-      <div>
-      <img width="300" src="../assets/imagenes/viveres.jpg">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam repudiandae id eaque ullam possimus non delectus accusantium provident natus, praesentium ut asperiores! Hic aliquam inventore praesentium eligendi obcaecati placeat deleniti voluptates esse, tempora cumque corporis at ab odio rem..</p>
-      </div>
+      <div class="col-4">
+        <img width="300" src="../assets/imagenes/viveres.jpg" class="rounded-circle">
+       </div>
+    </div> 
 
-</div>  
+    <div class="op-texto row">
+      <div class="col-4">
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, adipisci blanditiis libero doloremque dicta fugiat quos atque ipsum nisi totam? Numquam voluptates dolore praesentium, omnis nostrum saepe. Minima, quasi dolore?</p>
+    </div>
+
+    <div class="col-4">
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, adipisci blanditiis libero doloremque dicta fugiat quos atque ipsum nisi totam? Numquam voluptates dolore praesentium, omnis nostrum saepe. Minima, quasi dolore?</p>
+    </div>
+    <div class="col-4">
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, adipisci blanditiis libero doloremque dicta fugiat quos atque ipsum nisi totam? Numquam voluptates dolore praesentium, omnis nostrum saepe. Minima, quasi dolore?</p>
+     </div>
+
+  </div>
+</div>
 </main>
+
+
  <!-- COMIENZA EL FOOTER -->
 
  <footer class="text-center text-white" style="background-color: #f1f1f1;">
@@ -136,7 +151,7 @@
   
 </div>
 <!-- End of .container -->
-</div>
+
 <!-- link JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

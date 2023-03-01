@@ -5,6 +5,7 @@
   padding: 0;
   border: 0;
   vertical-align: baseline;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header {
@@ -16,19 +17,16 @@ header {
 
 .navbar {
   background-color: whitesmoke;
-  height: 90px;
+  height: fit-content;
   width: 100%;
 }
 .navbar ul {
-  margin: 40px 0px;
   float: right;
 }
 .navbar ul li {
   list-style-type: none;
   display: inline;
-  flex: auto;
   margin: 20px;
-  padding: 20px;
 }
 .navbar ul li :hover {
   color: blueviolet;
@@ -36,53 +34,97 @@ header {
 .navbar ul li a {
   text-decoration: none;
   color: darkslateblue;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.collapse:not(.show) {
-  display: none;
-}
-
-.navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-  color: blue;
-}
-
-header {
-  position: sticky;
-  z-index: 2;
-  top: 0px;
-  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 footer {
   text-align: center;
 }
 
-.fondo {
-  background-image: url(../assets/imagenes/puerto.jpg);
-  width: 100%;
-  height: 100%;
-  padding: 250px 0px 250px 0px;
+.index {
+  background-color: white;
 }
 
-h1 {
-  text-align: center;
-  margin: 10px;
-  font-size: 550rem;
-  font-family: "Roboto Condensed", sans-serif;
+.display-1 {
+  margin-top: 20px;
   padding: 20px;
-  animation: efecto-derecha 1.5s ease;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.slogan {
-  background-color: silver;
+.h5-index {
+  font-size: large;
+}
+
+/*Formulario*/
+form div {
+  text-align: left;
+  color: darkslateblue;
+  padding: 10px;
+  font-size: larger;
+  padding-right: 100px;
+}
+
+.contacto iframe {
+  width: 100%;
+  padding: 50px;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+.operacion div {
+  padding: 20px;
+  text-align: center;
+}
+
+.operacion img {
+  border-radius: 10%;
+  text-align: center;
+  animation: efecto-abajo 1.5s ease;
+}
+
+.operacion div p {
+  text-align: center;
   color: white;
-  font-family: "Libre Baskerville", serif;
+  font-size: 25px;
+}
+
+.operacion div ul li {
+  color: darkslateblue;
   text-align: center;
   font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px;
+  background-color: silver;
+  border-radius: 10%;
+}
+
+.socios img {
+  padding: 50px;
+  text-align: center;
+}
+
+.socios {
+  background-color: silver;
+}
+
+.card {
+  text-align: center;
+  margin: 40px 60px 40px 60px;
+  position: relative;
+}
+
+.servicios {
+  text-align: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: darkslateblue;
+  width: 30%;
+  animation: efecto-abajo 1.5s ease;
 }
 
 main {
@@ -115,14 +157,7 @@ h2 {
   text-align: center;
   margin: 20px;
   font-size: 50px;
-  font-family: "Roboto Condensed", sans-serif;
   padding: 30px;
-  animation: efecto-abajo 1.5s ease;
-}
-
-.quienes-somos {
-  display: flex;
-  padding: 25px;
   animation: efecto-abajo 1.5s ease;
 }
 
@@ -130,118 +165,9 @@ h2 {
   color: white;
   text-align: left;
   font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
   padding: 20px;
-}
-
-.mujeres div {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.mujeres {
-  background-color: silver;
-  padding-bottom: 50px;
-}
-
-.mujeres img {
-  padding: 10px;
-}
-
-.mujeres p {
-  text-align: center;
-}
-
-.servicios {
-  display: flex;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  font-size: 25px;
-  color: darkslateblue;
-  width: 30%;
-  padding: 10px;
-  animation: efecto-abajo 1.5s ease;
-}
-.servicios div {
-  padding: 0px 100px 10px 100px;
-  animation: efecto-abajo 1.5s ease;
-}
-.servicios div img {
-  border-radius: 50%;
-}
-.servicios div img p {
-  padding-top: 30px;
-}
-
-.operacion div {
-  padding: 20px;
-  text-align: center;
-}
-
-.operacion img {
-  border-radius: 10%;
-  text-align: center;
-  animation: efecto-abajo 1.5s ease;
-}
-
-.operacion div p {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-}
-
-.operacion div ul li {
-  color: darkslateblue;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  font-size: 30px;
-  text-decoration: none;
-  display: inline-block;
-  padding: 50px;
-  background-color: silver;
-  border-radius: 10%;
-}
-
-.socios img {
-  padding: 50px;
-  text-align: center;
-}
-
-.socios {
-  background-color: silver;
-}
-
-/*Formulario*/
-form div {
-  text-align: left;
-  color: darkslateblue;
-  padding: 10px;
-  font-size: larger;
-  padding-right: 100px;
-}
-
-.contacto iframe {
-  width: 100%;
-  padding: 50px;
-}
-
-form {
-  width: 100%;
-  padding: 10px;
 }
 
 /*Img Carrousel*/
-.carousel-item img {
-  width: auto;
-  height: 200px;
-  max-height: 200px;
-}
-
-.card {
-  text-align: center;
-}
 
 /*# sourceMappingURL=style.css.map */
