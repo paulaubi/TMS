@@ -51,37 +51,65 @@
 
     <main>
 
+      
       <h2 style="color: white;">OPERACIÓN </h2>
-    <div class="operacion">
+    
+      <div class="operacion container-fluid">
       <div>
-        <img
-          width="800px"
+        <img 
+          width="700px" class="img-fluid"
           src="../assets/imagenes/mapamundiazul.jpg"
-          alt="Mapa Mundi"
-        />
+          alt="Mapa Mundi"/>
       </div>
 
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-          officiis necessitatibus?
+          Nuestro equipo se encuentra disperso por el mundo, pero unido en los objetivos y valores. 
         </p>
       </div>
-      <div>
-        <ul>
-          <li>Estados Unidos</li>
-          <li>Argentina</li>
-          <li>Brasil</li>
-          <li>España</li>
-          <li>Francia</li>
-        </ul>
+
+      <!--carrousel con logos de banderas-->
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carousel-operacion">
+            <div class="row justify-content-center">
+            <img src="../assets/imagenes/Espana.png"
+                   class="d-block w-100" alt="Espana flag">
+                <img src="../assets/imagenes/brasil.png"
+                   class="d-block w-100" alt="Brasil flag">      
+                   <img src="../assets/imagenes/Peru.png"
+                   class="d-block w-100" alt="Peru flag">      
+                      
+          </div>
+        </div>
+          <div class="carousel-item" id="carousel-operacion">
+            <div class="row justify-content-center">
+              <img src="../assets/imagenes/USA.svg"
+                     class="d-block w-100" alt="Usa flag">
+                  <img src="../assets/imagenes/Argentina.svg"
+                     class="d-block w-100" alt="Argentina flag">
+                     <img src="../assets/imagenes/uruguay.png"
+                     class="d-block w-100" alt="Uruguay flag">        
+                     
+                    </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </div>
 
     <div class="socios">
-      <h2>NUESTROS SOCIOS</h2>
+      <h2 style="color: rgb(39, 39, 133);">NUESTROS SOCIOS</h2>
 
       <!--carrousel con logos de socios-->
+
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -90,34 +118,24 @@
         
         <div class="carousel-inner">
 
-          <div class="carousel-item active">
-            <div class="row">
-            <div class="col-4">
-               <img src="../assets/imagenes/pepsilogo.png" class="d-block w-100" alt="...">
-          </div>
-           <div class="col-4"> 
-            <img src="../assets/imagenes/nestlelogo.png" class="d-block w-100" alt="...">
-          </div>
-            <div class="col-4">
-            <img src="../assets/imagenes/Unileverlogo.png"  class="d-block w-100" alt="...">
+          <div class="carousel-item active" id="carousel-socios">
+            <div class="row justify-content-center">
+                       <img src="../assets/imagenes/pepsilogo.png" class="d-block w-100" alt="...">
+                       <img src="../assets/imagenes/nestlelogo.png" class="d-block w-100" alt="...">
+                       <img src="../assets/imagenes/Unileverlogo.png"  class="d-block w-100" alt="...">
           </div>
           </div>
-         </div>
+         
 
-          <div class="carousel-item">
-            <div class="row">
-            <div class="col-4">
+          <div class="carousel-item" id="carousel-socios">
+            <div class="row justify-content-center">
           <img src="../assets/imagenes/Quilmeslogo.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-4">
-              <img src="../assets/imagenes/kraftlogo.png" class="d-block w-100" alt="...">
-            </div>
-          <div class="col-4"> 
+          <img src="../assets/imagenes/kraftlogo.png" class="d-block w-100" alt="...">
           <img src="../assets/imagenes/Danonelogo.png" class="d-block w-100" alt="...">
           </div>
         </div>
         </div>
-        </div>
+        
 
         
       </div>

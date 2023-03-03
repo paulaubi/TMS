@@ -1,32 +1,25 @@
 /*Formulario*/
   
 form {
-    div {
-    text-align: left;
-    color: darkslateblue;
-    padding: 10px;
-    font-size: larger;
-    padding-right: 100px;
-  }
+  width: 80%;
+  border: 4px;
+  border-style: dotted;
+  border-color:white;
+  text-align: center;
+  color: darkslateblue;
+  padding: 20px;
+  margin-left: 10px;
+    }
+
+  iframe{
+      padding: 20px;
+      width: 100%;
+      
+    }
+.iframe-datos{
+  padding: 20px;
+ color: white;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
 }
-  
-  .contacto {
-    
-    
-  }
-  
-  .contacto {
-      iframe {
-          width: 100%;
-          padding: 50px;
-  }
-}
-  
-form {
-    width: 100%;
-    padding: 10px;
-    
-  }
-  
-  
-  

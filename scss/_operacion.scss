@@ -3,7 +3,7 @@
     text-align: center;
   }
   .operacion img {
-    border-radius: 10%;
+    border-radius: 5%;
     text-align: center;
     animation: efecto-abajo 1.5s ease;
   }
@@ -14,22 +14,24 @@
     font-size: 25px;
   }
   
-  .operacion div ul li {
-    color: darkslateblue;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 50px;
-    background-color: silver;
-    border-radius: 10%;
-  }
-  
-  .socios img {
-    padding: 50px;
-    text-align: center;
-  }
-  
   .socios {
     background-color: silver;
   }
+
+  #carousel-operacion{
+    img{
+      max-width: 200px;
+      max-height: auto;
+      align-items: center;
+      
+    }
+  }
+
+  #carousel-socios{
+    img{
+      max-width: 300px;
+      max-height: 200px;
+          }
+  }
+
+ 
